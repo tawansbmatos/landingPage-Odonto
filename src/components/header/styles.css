@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color-with);
+    flex-wrap: wrap;
+    padding: 10px 0;
+  
+}
+
+.header h1 {
+    color: var(--color-blue);
+    font-weight: 400;
+}
+
+.header b {
+    color: var(--color-green);
+
+}
+
+.lista {
+    display: flex;
+    gap: 20px;
+}
+
+.li a {
+    color: var(--color-txtblue);
+    position: relative;
+    font-size: 1.1rem;
+
+}
+
+.li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-blue);
+    transition: width 0.3s ease-in-out;
+}
+
+.li a:hover::after {
+    width: 100%;
+}
+
+.social-icons a {
+    margin: 7px;
+
+}
+
+.link-social:hover {
+    transform: scale(1.4);
+    transition: transform 0.4s ease;
+}
