@@ -11,7 +11,7 @@ export default function Header() {
             <ul className='lista'>
                 <li className='li'><a href="#Home">Home</a></li>
                 <li className='li'><a href="#Sobre">Sobre</a></li>
-                <li className='li'><a href="#Servicos">Serviços</a></li>
+                <li className='li'><a href="#Services">Serviços</a></li>
                 <li className='li'><a href="#Contato">Contato</a></li>
                 <li className='li'><a href="#Agendamento">Agendamento</a></li>
             </ul>
